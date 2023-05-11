@@ -51,6 +51,12 @@ export const Header = () => {
           Example UI
         </NavLink>
       </li>
+      <li>
+        <NavLink href="/test">
+          <SparklesIcon className="h-4 w-4" />
+          Front End Test
+        </NavLink>
+      </li>
     </>
   );
 

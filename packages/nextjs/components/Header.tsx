@@ -38,7 +38,7 @@ export const Header = () => {
     <>
 
       <li>
-        <NavLink href="/test">
+        <NavLink href="/incrementer">
           <SparklesIcon className="h-4 w-4" />
           Incrementer
         </NavLink>

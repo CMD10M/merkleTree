@@ -13,7 +13,7 @@ const randomContract = new ethers.Contract(
 
 async function main() {
   const result = await randomContract.verify(
-    "0x0fa55F7DdAF3e1B6D6e902E65A133f49fA254948",
+    "0xb758F0bB07eEacdCdB3c52bb02A47CA678e8Cd2a",
     [
       "0xcb89dca81fbe8a09817bb0b221c6ffe44f146adb362f6fbeca430ea208c8fd5e",
       "0xde8b69a58e54fc409ff80797e7ab156cf008b3f9566792513344b75856331c26"

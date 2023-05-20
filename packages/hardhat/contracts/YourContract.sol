@@ -24,10 +24,4 @@ contract Incrementer {
   }
 }
 
-// function verify(address user, bytes32[] memory proof) public view returns (bool) {
-//     bytes32 leaf = keccak256(abi.encodePacked(user));
-//     console.log("Address: %s", user);
-//     bool isVerified = MerkleProof.verify(proof, root, leaf);
-//     console.log("Merkle proof verification result: %s", isVerified ? "true" : "false");
-//     return isVerified;
-// }
+

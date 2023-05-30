@@ -11,10 +11,10 @@ import keccak256 from "keccak256";
  */
 const deployYourContract: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
   const addresses = [
+    "0xb758F0bB07eEacdCdB3c52bb02A47CA678e8Cd2a",
     "0x0fa55F7DdAF3e1B6D6e902E65A133f49fA254948",
-    "0x049101ef5D69473CC0392DC619d98286eCAD5cf9",
+    "0x2D143b3Ae28Fa31E7c821D138c58c32A30aA36Ae",
     "0x1c80D2A677c4a7756cf7D00fbb1c1766321333c3",
-    "0x34aA3F359A9D614239015126635CE7732c18fDF3",
   ].map(a => hre.ethers.utils.getAddress(a.toLowerCase()));
 
   const leaves = addresses.map(address =>

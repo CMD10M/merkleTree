@@ -17,9 +17,10 @@ const Home: NextPage = () => {
 
  
   const addresses = [
+    "0xb758F0bB07eEacdCdB3c52bb02A47CA678e8Cd2a",
     "0x0fa55F7DdAF3e1B6D6e902E65A133f49fA254948",
-    "0xDFB12e2Acf058aB415B81Da7487af4F17810bEC7",
-    "0xDFB12e2Acf058aB415B81Da7487af4F17810bEC9",
+    "0x2D143b3Ae28Fa31E7c821D138c58c32A30aA36Ae",
+    "0x1c80D2A677c4a7756cf7D00fbb1c1766321333c3",
   ].map(a => ethers.utils.getAddress(a.toLowerCase()));
 
   const leaves = addresses.map(address =>

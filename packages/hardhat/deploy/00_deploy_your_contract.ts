@@ -21,6 +21,7 @@ const deployYourContract: DeployFunction = async function (hre: HardhatRuntimeEn
     Buffer.from(hre.ethers.utils.solidityKeccak256(["address"], [address]).slice(2), "hex"),
   );
   const tree = new MerkleTree(leaves, keccak256);
+  console.log(`Leaf: ${tree.getHexLeaves()}`);
   const root = tree.getHexRoot();
 
   console.log(tree.toString());
